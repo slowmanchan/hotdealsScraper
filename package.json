@@ -1,0 +1,17 @@
+{
+  "name": "xray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "PGDATABASE=rfd node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "nightmare": "^3.0.2",
+    "pg": "^7.18.1"
+  }
+}
